@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import com.huan.wanandroid_huan.R;
 import com.huan.wanandroid_huan.ui.home.HomeFragment;
+import com.huan.wanandroid_huan.ui.mine.MineFragment;
+import com.huan.wanandroid_huan.ui.project.ProjectFragment;
+import com.huan.wanandroid_huan.ui.tree.TreeFragment;
 
 
 /*
