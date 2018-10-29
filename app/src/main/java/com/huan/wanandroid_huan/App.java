@@ -34,6 +34,7 @@ public class App extends Application implements HasSupportFragmentInjector,HasAc
         mBaseApp=this;
         Utils.init(this);
 
+
     }
 
     @Override
