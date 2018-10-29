@@ -21,7 +21,7 @@ public class MainTabGenerateData {
 
     private static final String[] tabTitle = new String[]{"首页", "体系", "项目", "我的"};
 
-    public static Fragment []getFragments(String form){
+    public static Fragment []getFragments(String from){
         Fragment [] fragments=new Fragment[4];
         fragments[0] = HomeFragment.newInstance(from);
         fragments[1] = TreeFragment.newInstance(from);
