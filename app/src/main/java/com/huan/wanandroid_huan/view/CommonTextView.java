@@ -15,7 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.ldlywt.hello.R;
+import com.huan.wanandroid_huan.R;
 
 
 /**

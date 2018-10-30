@@ -10,6 +10,8 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.blankj.utilcode.util.SizeUtils;
+import com.huan.wanandroid_huan.App;
+import com.huan.wanandroid_huan.R;
 import com.huan.wanandroid_huan.view.CommonTextView;
 import com.trello.rxlifecycle2.LifecycleTransformer;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
@@ -92,7 +94,7 @@ public abstract class BaseActivity extends RxAppCompatActivity implements BaseCo
         Toast.makeText(App.getInstance(), "加载失败", Toast.LENGTH_SHORT).show();
     }
 
-    @Override
+
     public void showNoNet() {
         Toast.makeText(App.getInstance(), "无网络链接", Toast.LENGTH_SHORT).show();
     }
